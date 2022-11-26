@@ -1,0 +1,16 @@
+*,
+::after,
+::before {
+    /* 内容器不超出外容器 */
+    box-sizing: border-box;
+}
+
+html {
+    /* 超出的内容改为滚动 */
+    overflow-y: scroll;
+}
+
+body {
+    /* body 无边框 */
+    margin: 0;
+}
