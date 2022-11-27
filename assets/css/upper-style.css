@@ -1,6 +1,14 @@
 .upper {
-    margin-top: 130px;
-    margin-bottom: 80px;
+    /* 弹性 */
+    display: flex;
+
+    /* 居中 */
+    justify-content: center;
+
+    /* 瀑布流 */
+    flex-direction: column;
+
+    min-height: 80vh;
 }
 
 h1 {
@@ -19,7 +27,7 @@ h1 {
 .Cobb {
     font-size: 18px;
 
-    margin-bottom: 50px;
+    margin-bottom: 55px;
 }
 
 .Mal {
